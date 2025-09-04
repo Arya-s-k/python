@@ -8,7 +8,7 @@ class A :
         else:
             return "obj1 is greater than obj2"
         
-    def __el__(self,other):
+    def __eq__(self,other):
         if (self.a == other.a):
             return "obj1 is equal to obj2"
         else:
